@@ -1,9 +1,19 @@
 body {
     text-align: center;
+    background-color: rgb(158, 130, 156);
 }
 
 .list {
     text-align: center;
     padding-left: 48% ;
     padding-right: 52%;
+}
+
+.rodape {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -8px;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
 }

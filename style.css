@@ -1,14 +1,39 @@
 body {
     text-align: center;
-    background-color: rgb(158, 130, 156);
+    background-color: rgb(223, 208, 222);
 }
 
+h1 {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
 .list {
     text-align: center;
     padding-left: 48% ;
     padding-right: 52%;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.container .hab {
+    display: block;
+    padding: 40px;
+    border: 1px solid grey;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.container .hob {
+    padding: 40px;
+    border: 1px solid grey;
+    margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 .rodape {
@@ -27,4 +52,6 @@ body {
 
 img {
     border-radius: 50%;
+    padding: 10px;
+    background-color: black;
 }
